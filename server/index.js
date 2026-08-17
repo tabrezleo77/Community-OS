@@ -135,7 +135,6 @@ if (fs.existsSync(DIST_DIR)) {
     res.sendFile(path.join(DIST_DIR, 'index.html'));
   });
 }
-
 export default app;
 
 if (process.env.NODE_ENV !== 'production') {
