@@ -1,0 +1,12 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Runtime data store (auto-created from server/seed.json on first boot)
+server/data.json
+server/data.json.tmp

@@ -1,0 +1,37 @@
+{
+  "attendees": [
+    { "id": "a1", "name": "Alice Smith", "email": "alice@example.com", "ticketType": "VIP", "qrToken": "EVT-8821", "status": "Registered", "checkInTime": null, "dietary": "Vegan" },
+    { "id": "a2", "name": "Bob Johnson", "email": "bob@example.com", "ticketType": "General", "qrToken": "EVT-8822", "status": "Checked-In", "checkInTime": null, "dietary": "None" },
+    { "id": "a3", "name": "Charlie Davis", "email": "charlie@example.com", "ticketType": "Speaker", "qrToken": "EVT-8823", "status": "Checked-In", "checkInTime": null, "dietary": "Gluten-Free" },
+    { "id": "a4", "name": "Diana Prince", "email": "diana@example.com", "ticketType": "General", "qrToken": "EVT-8824", "status": "Registered", "checkInTime": null, "dietary": "None" },
+    { "id": "a5", "name": "Evan Wright", "email": "evan@example.com", "ticketType": "VIP", "qrToken": "EVT-8825", "status": "Registered", "checkInTime": null, "dietary": "None" },
+    { "id": "a6", "name": "Fiona Gallagher", "email": "fiona@example.com", "ticketType": "General", "qrToken": "EVT-8826", "status": "Checked-In", "checkInTime": null, "dietary": "Vegetarian" },
+    { "id": "a7", "name": "George Harris", "email": "george@example.com", "ticketType": "General", "qrToken": "EVT-8827", "status": "Registered", "checkInTime": null, "dietary": "None" },
+    { "id": "a8", "name": "Hannah Abbott", "email": "hannah@example.com", "ticketType": "VIP", "qrToken": "EVT-8828", "status": "Checked-In", "checkInTime": null, "dietary": "Dairy-Free" },
+    { "id": "a9", "name": "Ian Malcolm", "email": "ian@example.com", "ticketType": "Speaker", "qrToken": "EVT-8829", "status": "Registered", "checkInTime": null, "dietary": "None" },
+    { "id": "a10", "name": "Julia Roberts", "email": "julia@example.com", "ticketType": "General", "qrToken": "EVT-8830", "status": "Registered", "checkInTime": null, "dietary": "None" },
+    { "id": "a11", "name": "Kevin Hart", "email": "kevin@example.com", "ticketType": "VIP", "qrToken": "EVT-8831", "status": "Checked-In", "checkInTime": null, "dietary": "None" },
+    { "id": "a12", "name": "Laura Dern", "email": "laura@example.com", "ticketType": "General", "qrToken": "EVT-8832", "status": "Registered", "checkInTime": null, "dietary": "Vegan" },
+    { "id": "a13", "name": "Michael Scott", "email": "michael@example.com", "ticketType": "General", "qrToken": "EVT-8833", "status": "Checked-In", "checkInTime": null, "dietary": "None" },
+    { "id": "a14", "name": "Nina Simone", "email": "nina@example.com", "ticketType": "VIP", "qrToken": "EVT-8834", "status": "Registered", "checkInTime": null, "dietary": "None" },
+    { "id": "a15", "name": "Oscar Isaac", "email": "oscar@example.com", "ticketType": "Speaker", "qrToken": "EVT-8835", "status": "Checked-In", "checkInTime": null, "dietary": "Nut Allergy" }
+  ],
+  "sessions": [
+    { "id": "s1", "title": "Keynote: The Future of Tech", "speakerName": "Charlie Davis", "speakerRole": "CEO, TechCorp", "track": "Main Stage", "startTime": "09:00", "endTime": "10:30", "room": "Grand Hall", "capacity": 500 },
+    { "id": "s2", "title": "React Performance Tuning", "speakerName": "Ian Malcolm", "speakerRole": "Senior Engineer", "track": "Workshop A", "startTime": "11:00", "endTime": "12:30", "room": "Room 101", "capacity": 50 },
+    { "id": "s3", "title": "Design Systems in Practice", "speakerName": "Oscar Isaac", "speakerRole": "Lead Designer", "track": "Tech B", "startTime": "11:00", "endTime": "12:00", "room": "Room 202", "capacity": 100 },
+    { "id": "s4", "title": "AI in the Modern Web", "speakerName": "Alice Smith", "speakerRole": "AI Researcher", "track": "Main Stage", "startTime": "13:30", "endTime": "15:00", "room": "Grand Hall", "capacity": 500 },
+    { "id": "s5", "title": "Building Accessible Apps", "speakerName": "Fiona Gallagher", "speakerRole": "A11y Expert", "track": "Workshop A", "startTime": "15:30", "endTime": "17:00", "room": "Room 101", "capacity": 50 }
+  ],
+  "tasks": [
+    { "id": "t1", "volunteerName": "Sarah Jenkins", "assignedRole": "Door Scanner", "shiftTime": "08:00 - 12:00", "status": "Completed" },
+    { "id": "t2", "volunteerName": "Tom Riddle", "assignedRole": "Speaker Escort", "shiftTime": "09:00 - 13:00", "status": "Assigned" },
+    { "id": "t3", "volunteerName": "Uma Thurman", "assignedRole": "Helpdesk", "shiftTime": "10:00 - 14:00", "status": "Assigned" },
+    { "id": "t4", "volunteerName": "Victor Stone", "assignedRole": "Door Scanner", "shiftTime": "12:00 - 16:00", "status": "Unassigned" },
+    { "id": "t5", "volunteerName": "Wanda Maximoff", "assignedRole": "Helpdesk", "shiftTime": "14:00 - 18:00", "status": "Unassigned" }
+  ],
+  "announcements": [
+    { "id": "ann1", "message": "Welcome to Community Event OS 2026! Registration is now open.", "timestamp": null, "sender": "Organizer" },
+    { "id": "ann2", "message": "Keynote starting in 15 minutes at the Grand Hall.", "timestamp": null, "sender": "Organizer" }
+  ]
+}
