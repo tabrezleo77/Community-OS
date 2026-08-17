@@ -136,6 +136,10 @@ if (fs.existsSync(DIST_DIR)) {
   });
 }
 
-app.listen(PORT, () => {
-  console.log(`Community Event OS server listening on port ${PORT}`);
-});
+export default app;
+
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(PORT, () => {
+    console.log(`Community Event OS server listening on port ${PORT}`);
+  });
+}
